@@ -1,0 +1,16 @@
+#SPDX-License-Identifier: MIT-0
+---
+- name: Install packages
+  package:
+    name: "{{ item.name }}"
+    state:  present
+  with_items:
+    - name: neovim
+    - name: vimr
+    - name: font-jetbrains-mono-nerd-font
+
+- name: Link config
+  file:
+    state:  link
+    src:    "{{ role_path }}/files/config/"
+    dest:    ~/.config/nvim
