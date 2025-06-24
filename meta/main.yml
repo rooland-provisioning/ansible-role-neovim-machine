@@ -1,8 +1,9 @@
-#SPDX-License-Identifier: MIT-0
+---
+# SPDX-License-Identifier: MIT-0
 galaxy_info:
-  role_name:    neovim-machine
-  author:       Mailo Světel <mailo@rooland.cz>
-  description:  Installs neovim, gui for it and configure some base plugins
+  role_name: neovim-machine
+  author: Mailo Světel <mailo@rooland.cz>
+  description: Installs neovim, gui for it and configure some base plugins
 
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
@@ -17,7 +18,7 @@ galaxy_info:
   # - CC-BY-4.0
   license: BSD
 
-  min_ansible_version: 2.15
+  min_ansible_version: "2.15"
 
   # If this a Container Enabled role, provide the minimum Ansible Container version.
   # min_ansible_container_version:
