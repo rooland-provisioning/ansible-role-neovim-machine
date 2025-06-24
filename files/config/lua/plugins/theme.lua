@@ -7,9 +7,9 @@ return {
   end,
 
   priority = 1000,
+  lazy = false
 
   -- "folke/tokyonight.nvim",
-  -- --lazy = false,
   -- --opts = {},
   -- config = function()
   --   vim.cmd("colorscheme tokyonight-storm")
