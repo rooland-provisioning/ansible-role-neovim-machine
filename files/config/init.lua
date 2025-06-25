@@ -36,3 +36,7 @@ require("lazy").setup({
 
 vim.o.number = true
 vim.o.colorcolumn = "80,120"
+vim.o.tabstop = 2 -- Number of spaces a tab represents
+vim.o.shiftwidth = 2 -- Number of spaces for each indentation
+vim.o.expandtab = true -- Convert tabs to spaces
+vim.o.smartindent = true -- Automatically indent new lines
