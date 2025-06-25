@@ -47,3 +47,5 @@ vim.api.nvim_create_autocmd("BufReadPost", {
   end,
 })
 vim.o.foldmethod = 'indent'
+vim.o.list = true
+vim.o.listchars = "tab:→ ,trail:·,extends:»,precedes:«,nbsp:␣,space:."
