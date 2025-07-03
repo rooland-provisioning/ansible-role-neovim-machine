@@ -18,8 +18,11 @@ return {
     config = function()
       local lspconfig = require("lspconfig")
 
+      require("config.diagnostics")
+
       -- Rubocop
       lspconfig.rubocop.setup({})
+
       vim.opt.signcolumn = "yes"
       -- Original "LightBlue" for DiagnosticInfo wasn't readable for me
       vim.api.nvim_set_hl(0, 'DiagnosticInfo', { fg = 'DarkGrey' })
