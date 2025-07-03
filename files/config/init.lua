@@ -31,8 +31,7 @@ require("lazy").setup({
   install = { colorscheme = { "" } },
   -- automatically check for plugin updates
   checker = { enabled = false },
-}
-)
+})
 
 vim.o.number = true
 vim.o.colorcolumn = "80,120"
